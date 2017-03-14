@@ -175,3 +175,13 @@ ul, ol {
 }
 
 .hidden { display: none; }
+
+.menu span {
+    display: inline-block;
+    color: #888;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    /*border-bottom: 1px solid #ccc;*/
+}
