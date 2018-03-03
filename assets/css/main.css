@@ -185,3 +185,18 @@ ul, ol {
     text-decoration: none;
     /*border-bottom: 1px solid #ccc;*/
 }
+
+#qrcode {
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -36px;
+    left: 80px;
+}
+
+#WeChat:hover #qrcode {
+    visibility: visible;
+}
+
+
